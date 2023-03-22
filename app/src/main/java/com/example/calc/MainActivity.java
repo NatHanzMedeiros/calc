@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void dividir(View v) {
-        int valor1 = Integer.parseInt(n1.getText().toString());
-        int valor2 = Integer.parseInt(n1.getText().toString());
+        float valor1 = Integer.parseInt(n1.getText().toString());
+        float valor2 = Integer.parseInt(n1.getText().toString());
 
         result.setText(String.valueOf(valor1/valor2));
 
